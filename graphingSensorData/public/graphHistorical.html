@@ -24,7 +24,7 @@
         function getDataFromServer() {
 
             var startDate = new Date(document.getElementById("datetimeSelect").value).getTime();
-            var duration = parseInt(document.getElementById("duration").value) * 60;
+            var duration = parseInt(document.getElementById("duration").value) * 6000;
             var from = startDate - duration;
             var to = startDate;
 
